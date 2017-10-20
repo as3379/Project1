@@ -68,8 +68,10 @@ abstract class page
 
 class uploadForm extends page
 {
+//display HTML for file upload
         function accept()
         {
+
             $form = "<form action='index.php?page=uploadForm' method='post' enctype='multipart/form-data'>";
             $form .= '<h1>Select CSV file to upload</h1>';
             $form .= '<br>';
@@ -80,6 +82,7 @@ class uploadForm extends page
             $this->html.=$form;
         }
 
+        //upload file to directory
     function display()
     {
 
