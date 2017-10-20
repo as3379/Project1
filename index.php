@@ -158,8 +158,6 @@ class stringFunctions
 
     }
 
-
-
 }
 
 
